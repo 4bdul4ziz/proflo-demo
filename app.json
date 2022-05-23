@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "proflo-demo",
+    "slug": "proflo-demo",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "proflo-demo"
+}
