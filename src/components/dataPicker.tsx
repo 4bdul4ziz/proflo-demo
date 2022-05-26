@@ -12,7 +12,6 @@ export const DatePicker: React.FC<{}> = ({}) => {
 
 
 
-
             <div className="background-sales">
                 <div className="calendars-container">
                     <Calendar />
