@@ -26,7 +26,9 @@ export const Calendar: React.FC<{}> = ({}) => {
         /*make two calendars on each side of the horizontal background
         * one for the sellers and one for the buyers */
         <div className="calendar-container">
-            <div className="datepicer-container"></div>
+            <div className="date-picker-container"></div>
+            <span>June 2022</span>
+
             <div className="weekdays-container">
                 {Weekdays.map(day => (
                     <div className="week-day">{day}</div>
