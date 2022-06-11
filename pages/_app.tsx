@@ -1,5 +1,6 @@
 import '../styles/globals.css'
 import type { AppProps } from 'next/app'
+import type { Navbar } from '../components/Navbar'
 
 
 //make two separate components
@@ -14,13 +15,14 @@ function MyApp({ Component, pageProps }: AppProps) {
 
 
   return (
+    //top bar
     <div className="date-picker-container">
             <div className="background-procurement">
                 <div className="calendars-container">
                   <Component {...pageProps} />  
                 </div>     
             </div>
-
+      
 
 
 
@@ -29,7 +31,7 @@ function MyApp({ Component, pageProps }: AppProps) {
                   <Component {...pageProps} />
                 </div>     
             </div>
-        </div>
+    </div>
   
   
   
