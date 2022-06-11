@@ -6,7 +6,7 @@
 
 
 .background-procurement {
-  background-image: linear-gradient(#FDB298, #B176FE);
+  background-image: linear-gradient(#F07470, #4949FF);
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -15,7 +15,7 @@
 }
 /*create two containers for the calendars horizontally*/
 .background-sales {
-  background-image: linear-gradient(#FFFF, #FFCE56);
+  background-image: linear-gradient(#A3A3FF, #F1959B);
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -24,6 +24,16 @@
 
 }
 
+/*top bar w*/
+.top-bar {
+  background-color: #F07470;
+  height: 10vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .date-picker-container {
   position: absolute;
